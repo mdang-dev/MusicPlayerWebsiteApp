@@ -1,0 +1,18 @@
+package com.server.mapper;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+
+public class PlaylistSongMapper {
+
+    private String playlistId;
+    private int songId;
+
+}
